@@ -29,10 +29,11 @@ context('Desafio Web', () => {
     cy.get('td[id="total_product"]').contains('$43.51')
     cy.deletaItemdoCarrinho(1)
     cy.get('td[id="total_product"]').should('be.visible').contains('$27.00')
-    /*
+    cy.reload();
     cy.deletaItemdoCarrinho(1)
+    cy.get('td[id="total_product"]').should('be.visible').contains('$0.00')
     //Criterio de aceite :Quando o carrinho estiver vazio, deve ser exibida a mensagem: “Your shopping cart is empty”;
     cy.get('div[id="center_column"]').children('p').contains('Your shopping cart is empty.').should('have.css','background-color','rgb(254, 145, 38)').and('have.css','border-color','rgb(228, 117, 43)').and('have.css','color','rgb(255, 255, 255)')
-    */
+
   })
 })
