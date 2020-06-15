@@ -1,0 +1,26 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "Dependências do projeto",
+    "main": "index.js",
+    "scripts": {
+      "cypress:run": "npx cypress run",
+      "cypress:runHeadlessFirefox": "npx cypress run --browser firefox",
+      "cypress:runHeadlessChrome": "npx cypress run --headless --browser chrome",
+      "cypress:open": "npx cypress open"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andersonishii/desafioSoftplan.git"
+    },
+    "author": "Anderson Seiji Ishii",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/andersonishii/desafioSoftplan.git"
+    },
+    "devDependencies": {
+      "cypress": "^4.8.0"
+    },
+    "dependencies": {}
+  }
+  

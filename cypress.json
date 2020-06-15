@@ -1,1 +1,9 @@
-{}
+{
+    "chromeWebSecurity": false,
+    "baseUrl": "http://automationpractice.com/index.php",
+    "integrationFolder": "cypress/integration",
+    "defaultCommandTimeout": 360000,
+    "pageLoadTimeout": 360000,
+    "responseTimeout": 360000,
+    "video": false
+}
